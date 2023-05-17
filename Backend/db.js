@@ -1,7 +1,7 @@
 
 const mongoose = require("mongoose");
 
-const MONGO_URL = 'mongodb+srv://khushahal:123456789%40Aa@cluster0.uh5aegt.mongodb.net/Backend_Users';
+const MONGO_URL = 'your url';
 mongoose.connect(MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("Mongo db connect successful");
